@@ -1,0 +1,31 @@
+.box {
+    position: relative;
+    display: block;
+    background:green;
+    width: 100px;
+    height: 100px;
+    animation-name: inventado;
+    animation-duration: 4s;
+    animation-iteration-count: infinie;
+    border-radius: 50%;
+    animation-name: mover;
+    animation-duration: 3s;
+    animation-iteration-count: infinit;
+}
+
+@keyframes inventado {
+    0% {background: green;}
+    25% {background: black;}
+    50% {background: yellow;}
+    75% {background: blue;}
+    100% {background: red;}
+}
+
+@keyframe move {
+   
+    0% {left: 100px;}
+    25% {top: 50px;}
+    50% {right: 50px;}
+    75% {bottom: 50px;}
+    100% {left: 50px;}
+}
